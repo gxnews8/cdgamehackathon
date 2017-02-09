@@ -4,6 +4,7 @@ namespace BlackJack {
     public class Player {
         public string name;
         public List<Card> hand;
+
         public int handTotal;
         public int money;
 
