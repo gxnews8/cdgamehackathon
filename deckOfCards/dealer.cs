@@ -8,14 +8,10 @@ namespace BlackJack {
        }
         public string DealerAction;
 
-        public Player PitBoss(string name){
-
-            int DealerSum=0;
-            foreach(Card card in hand){
-                DealerSum+=card.val;
-            }
-            if(DealerSum<handTotal || DealerSum<17){
-                Player.DrawFrom(ref myDeck);
+        public Player PitBoss( Deck myDeck, Player player){
+            int DealerSum=handTotal;
+            if(DealerSum<player.handTotal || DealerSum<17){
+                DrawFrom(ref myDeck);
                 DealerAction="Dealer Draws";
             }
             else{

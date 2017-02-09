@@ -11,10 +11,10 @@ namespace BlackJack {
         public Player(string n) {
             hand = new List<Card>();
             name = n;
-            money = 100;
+
         }
 
-        public static void DrawFrom(ref Deck currentDeck) {
+        public void DrawFrom(ref Deck currentDeck) {
             hand.Add(currentDeck.Deal());
         }
         public void HandCount(){
