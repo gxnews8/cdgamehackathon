@@ -34,7 +34,13 @@ namespace DeckOfCards {
             string[] suits = new string[4] {"Hearts", "Clubs", "Spades", "Diamonds"};
             foreach(string suit in suits) {
                 for (int val = 1; val < 14; val++) {
-                    cards.Add(new Card(suit, val));
+                    if (val == 1){
+                        cards.Add(new Card(suit, 11));
+                    }else if(val >= 10){
+                        cards.Add(new Card(suit, 10));
+                    }else{
+                        cards.Add(new Card(suit, val));
+                    }    
                 }
             }
             return this;
