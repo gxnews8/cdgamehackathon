@@ -1,3 +1,3 @@
-namespace BlackJack {
+namespace DeckOfCards {
 
 }

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace BlackJack {
+namespace DeckOfCards {
     public class Player {
         public string name;
         private List<Card> hand;

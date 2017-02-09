@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace BlackJack {
+namespace DeckOfCards {
     public class Deck {
         private List<Card> cards;
 
