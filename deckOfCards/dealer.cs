@@ -11,11 +11,11 @@ namespace BlackJack {
         public Player PitBoss(string name){
 
             int DealerSum=0;
-            foreach(int card in hand){
-                DealerSum+=card;
+            foreach(Card card in hand){
+                DealerSum+=card.val;
             }
-            if(DealerSum<HandTotal || DealerSum<17){
-                Player.DrawFrom();
+            if(DealerSum<handTotal || DealerSum<17){
+                Player.DrawFrom(ref myDeck);
                 DealerAction="Dealer Draws";
             }
             else{
