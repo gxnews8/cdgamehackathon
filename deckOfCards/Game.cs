@@ -19,9 +19,4 @@ namespace BlackJack {
             return result;
         }
     }
->>>>>>> c406104e83a03cdde41fcb0a63c71ac6ac38f861
-=======
-namespace BlackJack{
->>>>>>> max
-    
 }
