@@ -8,6 +8,9 @@ namespace DeckOfCards
         {
             Deck myDeck = new Deck();
             System.Console.WriteLine(myDeck);
+            Player player = new Player("player");
+            System.Console.WriteLine(player.name);
+
         }
     }
 }
