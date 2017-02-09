@@ -8,7 +8,7 @@ namespace BlackJack {
        }
         public string DealerAction;
 
-        public Player PitBoss( Deck myDeck, Player player){
+        public void PitBoss( Deck myDeck, Player player){
             int DealerSum=handTotal;
             if(DealerSum<player.handTotal || DealerSum<17){
                 DrawFrom(ref myDeck);
