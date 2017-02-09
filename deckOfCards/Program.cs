@@ -13,9 +13,9 @@ namespace BlackJack
             Player player = new Player(name);
             System.Console.WriteLine("Welcome, {0}.", player.name);
             System.Console.WriteLine("You currently have {0} dollars.", player.money);
-            Gameplay.StartGame(player, dealer);
+            Gameplay.StartGame(player, dealer, myDeck);
             string action = System.Console.ReadLine();
-            Gameplay.Action(action);
+            Gameplay.Action(action, player, dealer, myDeck);
         }
     }
 }
