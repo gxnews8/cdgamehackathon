@@ -83,6 +83,7 @@
 -r:"/Users/me/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/me/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll"
 "/Users/me/Desktop/cdgamehackathon/deckOfCards/Card.cs"
+"/Users/me/Desktop/cdgamehackathon/deckOfCards/dealer.cs"
 "/Users/me/Desktop/cdgamehackathon/deckOfCards/Deck.cs"
 "/Users/me/Desktop/cdgamehackathon/deckOfCards/Game.cs"
 "/Users/me/Desktop/cdgamehackathon/deckOfCards/Player.cs"
