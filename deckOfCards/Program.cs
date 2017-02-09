@@ -12,6 +12,7 @@ namespace DeckOfCards
             string name = System.Console.ReadLine();
             Player player = new Player(name);
             System.Console.WriteLine("Welcome, {0}.", player.name);
+            System.Console.WriteLine("You currently have {0} dollars.", player.money);
         }
     }
 }
