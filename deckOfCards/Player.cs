@@ -13,11 +13,5 @@ namespace DeckOfCards {
         public void DrawFrom(Deck currentDeck) {
             hand.Add(currentDeck.Deal());
         }
-
-        public Card Discard(int idx) {
-            Card temp = hand[idx];
-            hand.RemoveAt(idx);
-            return temp;
-        }
     }
 }
