@@ -1,15 +1,17 @@
 using System.Collections.Generic;
 
-namespace DeckOfCards {
+namespace BlackJack {
     public class Player {
         public string name;
         public List<Card> hand;
         public int handTotal;
+        public int money;
+
 
         public Player(string n) {
             hand = new List<Card>();
             name = n;
-            int money = 100;
+            money = 100;
         }
 
         public void DrawFrom(Deck currentDeck) {
