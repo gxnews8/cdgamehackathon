@@ -8,7 +8,7 @@ namespace BlackJack {
         public Deck() {
             Reset();
         }
-
+        
         public Card Deal() {
             if(cards.Count > 0) {
                 Card temp = cards[0];
