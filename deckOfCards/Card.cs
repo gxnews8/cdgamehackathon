@@ -1,4 +1,4 @@
-namespace DeckOfCards {
+namespace BlackJack {
     public class Card {
         public string stringVal {
             get {
