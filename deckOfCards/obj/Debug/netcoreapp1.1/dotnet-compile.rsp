@@ -1,5 +1,5 @@
---temp-output:/Users/me/Desktop/coding_dojo/c#/deckOfCards/obj/Debug/netcoreapp1.1/
---out:/Users/me/Desktop/coding_dojo/c#/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.dll
+--temp-output:/Users/me/Desktop/cdgamehackathon/deckOfCards/obj/Debug/netcoreapp1.1/
+--out:/Users/me/Desktop/cdgamehackathon/deckOfCards/bin/Debug/netcoreapp1.1/deckOfCards.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -87,6 +87,8 @@
 --reference:/Users/me/.nuget/packages/System.Threading.Timer/4.3.0/ref/netstandard1.2/System.Threading.Timer.dll
 --reference:/Users/me/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/Users/me/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll
-/Users/me/Desktop/coding_dojo/c#/deckOfCards/Card.cs
-/Users/me/Desktop/coding_dojo/c#/deckOfCards/Deck.cs
-/Users/me/Desktop/coding_dojo/c#/deckOfCards/Program.cs
+/Users/me/Desktop/cdgamehackathon/deckOfCards/Card.cs
+/Users/me/Desktop/cdgamehackathon/deckOfCards/Deck.cs
+/Users/me/Desktop/cdgamehackathon/deckOfCards/Game.cs
+/Users/me/Desktop/cdgamehackathon/deckOfCards/Player.cs
+/Users/me/Desktop/cdgamehackathon/deckOfCards/Program.cs

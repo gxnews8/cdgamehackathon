@@ -8,6 +8,7 @@ namespace DeckOfCards {
         public Player(string n) {
             hand = new List<Card>();
             name = n;
+            int money = 100;
         }
 
         public void DrawFrom(Deck currentDeck) {
