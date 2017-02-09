@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/me/.nuget/packages"
+      "/home/max/.nuget/packages"
     ]
   }
 }
