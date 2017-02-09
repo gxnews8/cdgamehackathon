@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DeckOfCards
+namespace BlackJack
 {
     public class Program
     {

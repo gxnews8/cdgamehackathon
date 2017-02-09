@@ -4,16 +4,15 @@ namespace BlackJack {
     public class Player {
         public string name;
         public List<Card> hand;
-
+        public int money = 100;
         public int handTotal;
 
         public Player(string n) {
             hand = new List<Card>();
             name = n;
-            int money = 100;
         }
 
-        public void DrawFrom(Deck currentDeck) {
+        public static void DrawFrom(ref Deck currentDeck) {
             hand.Add(currentDeck.Deal());
         }
         public void HandCount(){
