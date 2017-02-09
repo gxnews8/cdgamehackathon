@@ -1,6 +1,6 @@
-namespace DeckOfCards {
-<<<<<<< HEAD
-=======
+
+namespace BlackJack {
+
     public class Gameplay {
         public static string Action(string act) {
             string result = "nothing";
@@ -20,5 +20,8 @@ namespace DeckOfCards {
         }
     }
 >>>>>>> c406104e83a03cdde41fcb0a63c71ac6ac38f861
+=======
+namespace BlackJack{
+>>>>>>> max
     
 }
