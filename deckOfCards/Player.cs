@@ -12,7 +12,7 @@ namespace BlackJack {
             name = n;
         }
 
-        public static void DrawFrom(ref Deck currentDeck) {
+        public void DrawFrom(ref Deck currentDeck) {
             hand.Add(currentDeck.Deal());
         }
         public void HandCount(){
