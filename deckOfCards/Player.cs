@@ -18,7 +18,7 @@ namespace BlackJack {
             hand.Add(currentDeck.Deal());
         }
         public void HandCount(){
-            int handTotal = 0;
+            handTotal = 0;
             bool isAce = false;
             foreach(Card card in hand){
                 if (card.val == 11){
