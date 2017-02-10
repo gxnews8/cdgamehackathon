@@ -9,13 +9,18 @@ namespace BlackJack {
         public string DealerAction;
 
         public void PitBoss( Deck myDeck, Player player){
-            int DealerSum=handTotal;
-            if(DealerSum<player.handTotal || DealerSum<17){
+            HandCount();
+            while(handTotal<player.handTotal-1 && handTotal < 22){
                 DrawFrom(ref myDeck);
+                Gameplay.ShowCards(player, this);
                 DealerAction="Dealer Draws";
             }
-            else{
-                DealerAction="Dealer Stays";
+            if(handTotal < 22){
+                System.Console.WriteLine("Dealer Wins!");
+                player.money -= 5;
+            }else{
+                System.Console.WriteLine("Player Wins!");
+                player.money +=5;
             }
         }
     }

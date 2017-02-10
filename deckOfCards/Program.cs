@@ -12,10 +12,18 @@ namespace BlackJack
             string name = System.Console.ReadLine();
             Player player = new Player(name);
             System.Console.WriteLine("Welcome, {0}.", player.name);
-            System.Console.WriteLine("You currently have {0} dollars.", player.money);
-            Gameplay.StartGame(player, dealer, myDeck);
-            string action = System.Console.ReadLine();
-            Gameplay.Action(action, player, dealer, myDeck);
+            
+            
+            while (player.money > 4){
+                string returnval = Gameplay.StartGame(player, dealer, myDeck);
+                if (returnval == "hit"){
+                    Gameplay.Action(player, dealer, myDeck);
+                }else if (returnval == "stay"){
+                    dealer.PitBoss(myDeck, player);
+                }else if(returnval == "void"){
+                    Gameplay.Action(player, dealer, myDeck);
+                }
+            }
         }
     }
 }
