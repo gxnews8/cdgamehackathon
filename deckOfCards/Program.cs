@@ -13,7 +13,7 @@ namespace BlackJack
             Player player = new Player(name);
             System.Console.WriteLine("Welcome, {0}.", player.name);
             
-            
+            // C# I need to learn hard.
             while (player.money > 4){
                 string returnval = Gameplay.StartGame(player, dealer, myDeck);
                 if (returnval == "hit"){
